@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "[NGINX-SERVICE] -- Starting Runit Dockerized Service NGINX ..."
 
-exec /usr/sbin/nginx -g "daemon off;"
+exec /usr/sbin/nginx 
 
 echo "Service started"

@@ -8,7 +8,7 @@ ENV LOGGER=false
 # application placed into /opt/app
 RUN adduser -D -g 'www' www
 RUN mkdir -p /opt/app
-WORKDIR /opt/app
+WORKDIR /www/images
 # COPY config.yml /opt/app/config/
 # COPY target /opt/app/
 

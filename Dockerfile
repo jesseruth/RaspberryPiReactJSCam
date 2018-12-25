@@ -18,7 +18,7 @@ COPY /docker /
 ADD start_runit /sbin/
 RUN 	mkdir /etc/container_environment &&\
         chmod a+x /sbin/start_runit && mkdir /etc/service && \ 
-	apk add nginx && \
+	apk add nginx && apk add python && \
 	# mkdir /etc/runit_init.d && \
         apk --update upgrade && apk add runit && rm -rf /var/cache/apk/*
 

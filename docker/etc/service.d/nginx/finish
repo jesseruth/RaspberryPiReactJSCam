@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo "[LOG-SERVICE] -- Ending Runit Dockerized log-service with parameters ${@}"
+
+sleep 3
+
+# This service will automaticaly restart after 3 seconds
